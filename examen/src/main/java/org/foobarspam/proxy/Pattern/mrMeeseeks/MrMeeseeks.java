@@ -30,8 +30,6 @@ public class MrMeeseeks {
 		this.messageOnExplode = messageOnExplode;
 	}
 
-	
-
 	public Integer getId() {
 		return id;
 	}
