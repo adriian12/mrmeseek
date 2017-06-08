@@ -63,8 +63,14 @@ public static void main( String[] args ){
 
 		public void listMrMeeseeks(ArrayList<MrMeeseeks> MrMeeseeks){
 			
+			for(MrMeeseeks : setMrMe){
+				System.out.println.();
 		}
+		
 
+		public void explodeMeeseeks(ArrayList<MrMeeseeks>, setMrMe integer id){
+			
+		}
 }
 
 

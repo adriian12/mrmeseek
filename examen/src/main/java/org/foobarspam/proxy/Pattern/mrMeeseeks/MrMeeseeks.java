@@ -6,12 +6,20 @@ public class MrMeeseeks {
 
 	private static AtomicInteger ID_GENERATOR = new AtomicInteger(1000);
 	private Integer id;
-	private String[] messageOnRequest = "";
+	private[] messageOnRequest = "";
 	private String messageOnDone = "";
 	private String messageOnExplode = "";
 			
 	public MrMeeseeks(){
 		this.setId(ID_GENERATOR.incrementAndGet());
+	}
+	
+	public MrMeeseeks(Integer id, String[] messageOnRequest, String messageOnDone, String messageOnExplode) {
+		super();
+		this.id = id;
+		this.messageOnRequest = messageOnRequest;
+		this.messageOnDone = messageOnDone;
+		this.messageOnExplode = messageOnExplode;
 	}
 
 	public Integer getId() {
@@ -20,11 +28,25 @@ public class MrMeeseeks {
 
 	public void sayMessageOnCreate(){
 		
-		System.out.println("OK: se han añadido: ");
+		System.out.println("I'm Mr.Meeseeks look at mee!!" + id);
 		
 	}
 	
 	public void sayMessageOnRequest(){
+		
+		System.out.println("Oooh yeah!, Yes, ma'am!");
+		
+	}
+	
+	public void sayMessageOnDone(){
+			
+			System.out.println("All done!");
+			
+		}
+	
+	public void sayMessageOnExplode(){
+		
+		System.out.println("Oooh yeah!, Yes, ma'am!");
 		
 	}
 	
@@ -41,6 +63,8 @@ public class MrMeeseeks {
 	public void setMessageOnRequest(String messageOnRequest) {
 		this.messageOnRequest = messageOnRequest;
 	}
+
+
 
 	
 	
