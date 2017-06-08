@@ -6,7 +6,7 @@ public class MrMeeseeks {
 
 	private static AtomicInteger ID_GENERATOR = new AtomicInteger(1000);
 	private Integer id;
-	private[] messageOnRequest = "";
+	private String[] messageOnRequest = "";
 	private String messageOnDone = "";
 	private String messageOnExplode = "";
 			
@@ -14,6 +14,10 @@ public class MrMeeseeks {
 		this.setId(ID_GENERATOR.incrementAndGet());
 	}
 	
+	private void setId(int increment) {
+		
+	}
+
 	public MrMeeseeks(Integer id, String[] messageOnRequest, String messageOnDone, String messageOnExplode) {
 		super();
 		this.id = id;
@@ -50,17 +54,31 @@ public class MrMeeseeks {
 		
 	}
 	
-	
-	
-	
-	
-	
-	
-	public String[] getMessageOnRequest() {
-		return messageOnRequest;
+	//Generamos el la mensaje que respone MrMeeseeks automáticamente
+	public String generateMessageOnRequest(String messageOnRequest){
+		
+		System.out.println(this.generateMessageOnRequest(messageOnRequest));
+		if(this.id()){
+		
+		for(int i = 0; i < this.getMessageOnRequest().length; i++){
+			
+			getMessageOnRequest().get(i).generateMessageOnRequest();
+		}
+		}else{
+		
+		for(listMrMeeseeks MrMeeseeks : getMessageOnRequest()){
+			
+			System.out.println( "" + MrMeeseeks.getId());
+		}
+		}
+		
 	}
 
-	public void setMessageOnRequest(String messageOnRequest) {
+	public String[] getMessageOnRequest() {
+		return getMessageOnRequest();
+	}
+
+	public void setMessageOnRequest(String[] messageOnRequest) {
 		this.messageOnRequest = messageOnRequest;
 	}
 

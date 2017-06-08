@@ -8,7 +8,7 @@ package org.foobarspam.proxy.Pattern.mrMeeseeks;
  *
  */
 public class ProxyMrMeeseeks extends MrMeeseeks{
-	
+
 	public ProxyMrMeeseeks(){
 		
 	}
@@ -22,8 +22,9 @@ public class ProxyMrMeeseeks extends MrMeeseeks{
 		
 	}
 
-	public void pushButton(Object setMrMe) {
-		
+	public void pushButton(Object setMrMe, Object <listMrMeeseeks>) {
+	
+		return listMrMeeseeks;
 		
 	}
 
