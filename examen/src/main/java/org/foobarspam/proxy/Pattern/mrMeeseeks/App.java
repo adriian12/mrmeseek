@@ -1,5 +1,6 @@
 package org.foobarspam.proxy.Pattern.mrMeeseeks;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author adrian
@@ -63,14 +64,15 @@ public static void main( String[] args ){
 
 		public void listMrMeeseeks(ArrayList<MrMeeseeks> MrMeeseeks){
 			
-//			for(MrMeeseeks : setMrMe){
-//				System.out.println.();
+			for(MrMeeseeks : setMrMe){
+				System.out.println.(setMrMe);
 		}
 		
 
-//		public void explodeMeeseeks(ArrayList<MrMeeseeks>, setMrMe integer id){
-//			
-//		}
+		public void explodeMeeseeks(ArrayList<MrMeeseeks>, setMrMe integer id){
+			
+		}
+		}
 }
 
 
