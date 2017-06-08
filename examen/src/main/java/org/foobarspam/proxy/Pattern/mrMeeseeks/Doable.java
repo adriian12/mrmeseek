@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.foobarspam.proxy.Pattern.mrMeeseeks;
 
 /**
@@ -8,5 +5,6 @@ package org.foobarspam.proxy.Pattern.mrMeeseeks;
  *
  */
 public interface Doable {
-
+	
+	void doable();
 }

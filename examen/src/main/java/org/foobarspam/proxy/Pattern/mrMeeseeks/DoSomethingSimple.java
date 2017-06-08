@@ -9,4 +9,5 @@ package org.foobarspam.proxy.Pattern.mrMeeseeks;
  */
 public interface DoSomethingSimple {
 
+	
 }

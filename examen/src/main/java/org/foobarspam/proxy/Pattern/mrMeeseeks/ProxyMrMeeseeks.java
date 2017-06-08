@@ -18,8 +18,18 @@ public class ProxyMrMeeseeks extends MrMeeseeks{
 	}
 
 	private void setNombre(String nombre) {
-		// TODO Auto-generated method stub
 		
+		
+	}
+
+	public void pushButton(Object setMrMe) {
+		
+		
+	}
+
+	public Object getMrMe() {
+		
+		return null;
 	}
 
 }
